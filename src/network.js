@@ -24,7 +24,9 @@
 		},
 
 		onChunk: function(data) {
-			console.log(data);
+			var chunk_json = JSON.parse(data.json);
+			var coords = data.x + ',' + data.y;
+			game.chunks[coords] = chunk_json;
 		},
 
 		onSocketConnected: function() {

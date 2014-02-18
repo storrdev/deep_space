@@ -15,7 +15,7 @@
 			y: 5
 		};
 
-		game.socket.emit('get chunk', {x: 8, y: 1});
+		game.socket.emit('get chunk', {x: 1, y: 1});
 
 		/*for (var x = -game.chunkBuffer; x <= game.chunkBuffer; x++) {
 			for (var y = -game.chunkBuffer; y <= game.chunkBuffer; y++) {

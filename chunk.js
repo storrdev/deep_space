@@ -14,7 +14,7 @@ exports.getChunk = function(x, y, fn) {
 			var newChunk = generateChunk(x, y, fn);
 		}
 		else {
-			fn(rows);
+			fn(rows[0].json);
 		}
 	});
 

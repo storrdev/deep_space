@@ -253,7 +253,7 @@ function onKills(data) {
 function onGetChunk(data) {
 	var that = this;
 	chunk.getChunk(data.x, data.y, function(chunk) {
-		that.emit('chunk', chunk);
+		that.emit('chunk', { x: data.x, y: data.y, json: chunk });
 	});
 };
 
