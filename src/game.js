@@ -1,6 +1,8 @@
 (function() {
 
 	game.assetsLoaded = function() {
+
+		// Quick change to test github creds for this repo.
 			
 		game.socket = game.network.connect();
 		game.network.setEventHandlers();
