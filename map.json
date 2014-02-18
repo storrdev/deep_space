@@ -1,0 +1,70 @@
+{
+	"height": 10,
+	"width": 10,
+	"tileheight": 60,
+	"tilewidth": 60,
+	"orientation": "orthogonal",
+	"tilesets": [],
+	"properties": {},
+	"version": 1,
+	"layers": [
+		{
+			"name": "collision",
+			"height": 10,
+			"width": 10,
+			"opacity": 1,
+			"visible": true,
+			"type": "objectgroup",
+			"objects": [
+				{
+					"id": 0,
+					"name": "green_planet",
+					"type": "planet",
+					"properties": {
+						"texture": "green_planet.png",
+						"spawn_rate": 0.2
+					},
+					"ellipse": true,
+					"visible": true,
+					"width": 61,
+					"height": 61,
+					"scale": "0.61",
+					"x": 149,
+					"y": 369
+				},
+				{
+					"id": 1,
+					"name": "blue_planet",
+					"type": "planet",
+					"properties": {
+						"texture": "blue_planet.png",
+						"spawn_rate": 0.1
+					},
+					"ellipse": true,
+					"visible": true,
+					"width": 62,
+					"height": 62,
+					"scale": "0.31",
+					"x": 197,
+					"y": 133
+				},
+				{
+					"id": 2,
+					"name": "green_planet",
+					"type": "planet",
+					"properties": {
+						"texture": "green_planet.png",
+						"spawn_rate": 0.2
+					},
+					"ellipse": true,
+					"visible": true,
+					"width": 18,
+					"height": 18,
+					"scale": "0.18",
+					"x": 494,
+					"y": 405
+				}
+			]
+		}
+	]
+}

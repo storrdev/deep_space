@@ -1,0 +1,52 @@
+{ "height":10,
+ "layers":[
+        {
+         "height":10,
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "ellipse":true,
+                 "height":140,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":140,
+                 "x":192,
+                 "y":85
+                }, 
+                {
+                 "ellipse":true,
+                 "height":211,
+                 "name":"",
+                 "properties":
+                    {
+
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":211,
+                 "x":338,
+                 "y":327
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "width":10,
+         "x":0,
+         "y":0
+        }],
+ "orientation":"orthogonal",
+ "properties":
+    {
+
+    },
+ "tileheight":60,
+ "tilesets":[],
+ "tilewidth":60,
+ "version":1,
+ "width":10
+}
